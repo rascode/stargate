@@ -1,0 +1,21 @@
+{
+  "name": "eleventy-template",
+  "version": "1.0.0",
+  "description": "11ty template",
+  "main": "main.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "css": "postcss ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css",
+    "build": "npm run css && eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.3.1",
+    "glob": "^7.1.7",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1"
+  }
+}

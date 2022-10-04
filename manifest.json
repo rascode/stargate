@@ -1,0 +1,32 @@
+{
+  "short_name": "11ty Starter Template",
+  "name": "Rather Opinionated 11ty Starter Template",
+  "description": "The 11ty Starter Template brought to you by people with opinions",
+  "icons": [{
+    "src": "/assets/img/icons/icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?source=homepage",
+  "background_color": "yellow",
+  "theme_color": "yellow",
+  "display_override": ["window-control-overlay", "minimal-ui"],
+  "display": "browser",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Get in Touch",
+      "short_name": "Contact Us",
+      "description": "Get in Touch with Us Today",
+      "url": "/contact?source=pwa",
+      "icons": [{ "src": "/assets/img/icons/icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Schedule an Appointment",
+      "short_name": "Make an Appointment",
+      "description": "Make a 1:1 Consultation appointment with Us",
+      "url": "/appointment?source=pwa",
+      "icons": [{ "src": "/assets/img/icons/icon.png", "sizes": "192x192" }]
+    }
+  ]
+}
