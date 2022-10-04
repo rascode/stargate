@@ -22,11 +22,11 @@ ENJOY :)
 This template includes the following configuraiton templates out of the box. You are, of course, free to adjust at will, but we wanted to begin with those files that are most common across modern projects.
 
 - [x] Eleventy (.eleventy.js)
-- [] ES Lint
+- [ ] ES Lint
 - [x] Gitignore (.gitignore)
 - [x] PWA Manifest (manifest.json)
-- [] PNPM 
+- [ ] PNPM 
 - [x] Prettier (prettier.config.js)
 - [x] Postcss (postcss.config.js)
 - [x] Web Crawler (robots.txt)
-- [] VS Code
+- [ ] VS Code
