@@ -1,4 +1,12 @@
 <article class="post">
-    Post layout
-    {{ content | safe }}
+title: {{ title }} <br>
+created: {{ created }}<br>
+last updated: {{ date }}<br>
+author: {{ pkg.author }}<br>
+description: {{ description }}<br>
+categories: {{ categories }}<br>
+featured image: {{ images.featured }}<br>
+excerpt: {{ excerpt }}<br>
+
+{{content | safe}}
 </article>
