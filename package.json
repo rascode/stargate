@@ -1,7 +1,7 @@
 {
   "name": "11ty",
   "title": "11ty Stargate Starter Template",
-  "description":"An opinionated starter template for 11ty.  Gates sold seperately.",
+  "description": "An opinionated starter template for 11ty.  Gates sold seperately.",
   "version": "1.0.0",
   "main": "main.js",
   "homepage": "https://github.com/rascode/11ty-stargate-starter",
@@ -10,11 +10,20 @@
     "css": "postcss ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css",
     "build": "npm run css && eleventy"
   },
-  "keywords": ["11ty", "eleventy","ssg", "starter", "template", "stargate", "boilerplate"],
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "ssg",
+    "starter",
+    "template",
+    "stargate",
+    "boilerplate"
+  ],
   "author": "rascode",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "2.0.0-canary.16",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-webc": "^0.4.0",
     "autoprefixer": "^10.3.1",

@@ -1,8 +1,9 @@
 //imports
-const pluginWebc  = require("@11ty/eleventy-plugin-webc");
-const pluginRss   = require("@11ty/eleventy-plugin-rss");
+const eleventyNavigationPlugin  = require("@11ty/eleventy-navigation");
+const pluginRss                 = require("@11ty/eleventy-plugin-rss");
+const pluginWebc                = require("@11ty/eleventy-plugin-webc");
 
-//config function
+//eleventy config function
 module.exports = function(eleventyConfig) {
 
     //passthroughs
@@ -12,10 +13,11 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"src/styles" : "/styles"});
     
     //plugins
-    eleventyConfig.addPlugin(pluginWebc);
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(pluginWebc);
 
-
+    //custom configuration
     return {
       dir:{
         input:    "src",        
