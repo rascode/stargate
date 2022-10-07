@@ -10,7 +10,7 @@
     "css": "postcss ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css",
     "build": "npm run css && eleventy"
   },
-  "keywords": [11ty, eleventy,ssg, starter, template, stargate],
+  "keywords": ["11ty", "eleventy","ssg", "starter", "template", "stargate", "boilerplate"],
   "author": "rascode",
   "license": "MIT",
   "devDependencies": {
