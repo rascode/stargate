@@ -1,0 +1,6 @@
+@import 'normalize.css'; /* Using a string */
+@import 'font.css';
+
+body {
+    background: gray;
+}

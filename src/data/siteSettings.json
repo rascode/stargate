@@ -1,6 +1,10 @@
 {
     "title": "11ty Starter",
-    "description": "A starter for 11ty",
-    "url": "https://11ty-starter.domainname.com",
-    "author": "Justice Archana"
+    "subitlte": "An Opinionated Starter for 11ty",
+    "description": "Looking for a starter for 11ty? This is a starter for 11ty that includes a few opinionated features.",
+    "url": "https://11ty-stargate-starter.dev",
+    "author": {
+        "name": "Starseed",
+        "email": "source@11ty-stargate-starter.dev"
+    }
 }
