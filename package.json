@@ -7,7 +7,7 @@
   "homepage": "https://github.com/rascode/11ty-stargate-starter",
   "scripts": {
     "dev": "eleventy --serve",
-    "css": "postcss ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css",
+    "css": "postcss ./src/styles/styles.css -o ./dist/styles/styles.css",
     "build": "npm run css && eleventy"
   },
   "keywords": [
@@ -28,7 +28,19 @@
     "@11ty/eleventy-plugin-webc": "^0.4.0",
     "autoprefixer": "^10.3.1",
     "glob": "^7.1.7",
+    "modern-css-reset": "^1.4.0",
     "postcss": "^8.3.6",
-    "postcss-cli": "^8.3.1"
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^15.0.0"
+  },
+  "config": {
+    "port": "8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rascode/11ty-stargate-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rascode/11ty-stargate-starter/issues"
   }
 }
