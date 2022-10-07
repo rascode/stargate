@@ -6,18 +6,23 @@ const pluginWebc                = require("@11ty/eleventy-plugin-webc");
 //eleventy config function
 module.exports = function(eleventyConfig) {
 
-    //passthroughs
+    //passthrough definitions
     eleventyConfig.addPassthroughCopy("manifest.json");
     eleventyConfig.addPassthroughCopy(".prettierrc");
     eleventyConfig.addPassthroughCopy("src/assets/");
     eleventyConfig.addPassthroughCopy({"src/styles" : "/styles"});
     
-    //plugins
+    //plugin declarations
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginWebc);
 
-    //custom configuration
+    //front matter options
+    eleventyConfig.setFrontMatterParsingOptions(
+      {excerpt: true,excerpt_separator: "<!-- excerpt -->" } //excerpt specification
+    );
+
+    //default 11ty configuration overrides
     return {
       dir:{
         input:    "src",        
