@@ -10,7 +10,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("manifest.json");
     eleventyConfig.addPassthroughCopy(".prettierrc");
     eleventyConfig.addPassthroughCopy("src/assets/");
-    eleventyConfig.addPassthroughCopy({"src/styles" : "/styles"});
     
     //plugin declarations
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
