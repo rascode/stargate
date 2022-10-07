@@ -7,7 +7,7 @@
   "homepage": "https://github.com/rascode/11ty-stargate-starter",
   "scripts": {
     "dev": "eleventy --serve",
-    "css": "postcss ./src/styles/styles.css -o ./dist/styles/styles.css",
+    "css": "postcss ./src/styles/style.css -o ./dist/styles/style.css",
     "build": "npm run css && eleventy"
   },
   "keywords": [
